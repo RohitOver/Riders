@@ -1,0 +1,52 @@
+“Alndkjadadajsd” : {
+"createdAt" : "2019-05-14 12:30:40",
+"dateOfBirth" : "",
+"emailId" : "",
+"favouriteLocation" : {
+"home" : {
+"latitude" : "",
+"longitude" : "",
+"name" : ""
+},
+"office" : {
+"latitude" : "",
+"longitude" : "",
+"name" : ""
+},
+"others" : {
+"latitude" : "",
+"longitude" : "",
+"name" : ""
+}
+},
+"fcmToken" :
+"egzomOpVIbc:APA91bGbhPjMEemMoPp7UROOTItIMIH5N54acXbfMf5fQr8t_mUbDXC_Y0M5tqu7udMtfz3U31J3769MH3dsmSTahVbteTAWHdxlOzPQZSiqFcguZfMOWLYoOea3KJDvmmET0pwBcQ",
+"firstName" : "",
+"gender" : "",
+"lastKnownLocation" : {
+"datetime" : "2019-05-14 12:38:21",
+"latitude" : 28.6777856,
+"longitude" : 77.2097339
+},
+"lastName" : "",
+"paymentPreference" : "",
+
+"phoneNumber" : "9110981129",
+"picture" : "",
+"rating" : "5",
+"referralMoney" : "45.00",
+"referredBy" : "",
+"rideHistory" : "",
+"soloExpressHistory" : {
+"-Lep9pdc-JM6ffZBJppr" : {
+"cost" : "20.00",
+"paymentMode" : "pass",
+"rideId" : "-Lep9pdc-JM6ffZBJppr",
+"seats" : 2,
+"startTime" : "2019-05-14 12:37:58"
+}
+},
+"state" : "PAYMENT FOR EXPRESS",
+"status" : "",
+"walletId" : "-Lep89IA4oZYj-O9ytE7"
+}
