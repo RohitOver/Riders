@@ -24,7 +24,7 @@ class riders:
 		for key in self.riderlist:
 			print(key)
 
-	def Show_value(self):  #show the rider value foe a particular key
+	def Show_value(self):  #show the rider value for a particular key
 		print("\nEnter key to get value :")
 		key = input()
 		print("\nRider info for key",key,"is :")
