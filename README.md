@@ -8,4 +8,4 @@ The python file *riders.py* converts the strings in the text files to respective
 
     $ python3 riders.py
 
-If you include many rider text files in the directory, the program auto populates riders so that there is no repetition & gives 2 options. Option 1 prints all keys in riders. Option 2 prints the values of the rider for a particular key.
+If you include many rider text files in the directory, the program auto populates riders so that there is no repetition & gives 2 options. *Option 1* prints all keys in riders. *Option 2* prints the values of the rider for a particular key.
