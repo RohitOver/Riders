@@ -27,6 +27,9 @@ class riders:
 	def Show_value(self):  #show the rider value for a particular key
 		print("\nEnter key to get value :")
 		key = input()
+		if key not in self.riderlist.keys():
+			print("Invalid key")
+			return
 		print("\nRider info for key",key,"is :")
 		for i in self.riderlist[key]:
 			print(i,"->",self.riderlist[key][i])
