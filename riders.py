@@ -1,6 +1,6 @@
 import json
 
-def Input_to_rider(filename):
+def Input_to_rider(filename):  #This function converts the input text file into a dictionary
 	f = open (filename, "r")
 	input = f.read()
 	f.close()
@@ -19,19 +19,19 @@ class riders:
 	def __init__(self):
 		self.riderlist = {}
 
-	def Display_keys(self):
+	def Display_keys(self):  #displays all keys in riders
 		print("\nAll keys in riders :")
 		for key in self.riderlist:
 			print(key)
 
-	def Show_value(self):
+	def Show_value(self):  #show the rider value foe a particular key
 		print("\nEnter key to get value :")
 		key = input()
 		print("\nRider info for key",key,"is :")
 		for i in self.riderlist[key]:
 			print(i,"->",self.riderlist[key][i])
 
-	def Auto_populate(self,filename):
+	def Auto_populate(self,filename):  #ensure that there is no repetition in riders
 		identifier,new_rider = Input_to_rider(filename)
 		if identifier in self.riderlist.keys():
 			print("Rider's info already exists")
